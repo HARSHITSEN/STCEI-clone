@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* to add black border on top */
+
+.blackbox{
+    background-color:#061d38;
+    width: 100%;
+    height: 5px;
+}
+
+/* Navbar start here */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+}
+.logo{
+    padding-left: 100px;
+}
+.navbar a{
+    text-decoration: none;
+    margin:3px;
+    padding: 10px;
+    font-size: 23px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Welcome section start here */
+
+.welcome{
+    background-image: linear-gradient(to bottom, rgba(8, 13, 21, 0.7), rgba(8, 13, 21, 0.7)), url(img/computer-programmer-banner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+.wel-come{
+    width: 80%;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px #061d38;
+    margin: 20px;
+}
+span{
+    color: #ffc412;
+}
+.wel-p{
+font-size: 18px;
+color: white;
+}
+
+
+/* About us start here */
+
+.main-container{
+    width:80%;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 20px;
+}
+h2{
+    margin: 5px;
+    font-size: 30px;
+}
+.line{
+    background-color: yellow;
+    width: 100px;
+    height: 3px;
+    margin: 5px auto;
+}
+.para-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.about-para{
+    width: 80%;
+    padding: 15px;
+    font-size: 18px;
+}
+.about-img img{
+    width:400px;
+
+}
+
+/* Why stcei??? containt are here */
+
+
+.stcei{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.main{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 3px;
+    padding: 10px;
+}
+.bx{
+    font-size: 50px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 70px;
+    color: white;
+    box-shadow: 0 10px 4px -6px #777;
+}
+h3 {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main p {
+    font-size: 18px;
+    text-align: center;
+}
+.icone{   
+     background-color: #0099e5;}
+.icone2{
+    background-color: #ff4c4c;
+}
+.icone3{
+    background-color: #34bf49;
+}
+.icone4{
+    background-color: #fbb034;
+}
+.icone5{
+    background-color: #d20962;
+}
+.icone6{
+    background-color: #005670;
+}
+
+
+/* extra code here */
+
+.yeh {
+
+    background-color: rgb(246, 216, 65);
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cc {
+    margin: 20px auto;
+    width: 250px;
+
+}
+
+h4 {
+    font-size: 45px;
+    color: rgb(45, 43, 43);
+    font-weight: bold;
+}
+
+.dd {
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;  
+}
+
+
+/* popular course start here */
+
+.dabba {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center ;
+    align-content: space-evenly;
+    margin: 20px;
+}
+
+.box {
+    width: 180px;
+    margin: 25px;
+    text-align: center;
+    height: 180px;
+    padding: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+}
+
+.box img {
+    width: 130px;
+    height: 100px;
+}
+
+.box img:hover {
+    transform: scale(0.9);
+
+}
+h5 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+/* internship section  */
+
+
+.bg{
+    background-image: linear-gradient(to bottom, rgba(8, 13, 21, 0.7), rgba(8, 13, 21, 0.7)), url("/img/bg.jpg");
+    background-attachment: fixed;
+    background-position: right top;
+    width: 100%;
+    background-color: #f15f5a3e;
+}
+.tt{
+    color: #fff;
+}
+.int{
+    display: flex;
+    width: 70%;
+    margin:auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.int p {
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    line-height: 40px;
+}
+
+
+/* teachers section start here */
+
+.teach{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.img4{
+    margin: 20px;
+    text-align: center
+}
+.img4 img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+}
+.h6 h6{
+    font-size: 21px;
+    padding:5px;
+}
+
+
+
+/* student section code start here */
+
+
+.pg{
+    background-image: linear-gradient(to bottom, rgba(8, 13, 21, 0.7), rgba(8, 13, 21, 0.7)), url("/img/student.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right top;
+    width: 100%;
+}
+
+.stu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+.h2 {
+    color: white;
+}
+
+.logoimg img {
+    width: 80px;
+    border-radius: 100px;
+    border: 5px solid white;
+}
+.pp p {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    margin-top:15px ;
+    margin-bottom: 10px;
+    color: antiquewhite;
+    
+}
+
+.DT {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding-top:5px;
+}
+
+
+/* <!-- branch location section start here --> */
+
+.stw{
+    margin-top: 30px;
+
+}
+.bx1 {
+    width: 100%;
+    /* height:250px; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h6 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.coc {
+    /* margin: 10px; */
+    line-height: 20px;
+}
+
+.ico {
+    padding: 30px;
+    font-size: 45px;
+    width: 100px;
+    height: 100px;
+    border: 2px dotted black;
+    border-radius: 50%;
+}
+
+.box11 {
+    margin-top: 20px;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.btn {
+    margin: 10px;
+    background-color: #ffcc5c;
+    border-radius: 10px;
+}
+
+
+
+/* footer start here */
+
+
+
+footer {
+    margin-top: 30px;
+    /* height: 5vh; */
+    background-color: rgb(6, 33, 98);
+}
+
+.foto {
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+@media screen and (max-width:992px) {
+    .navbar{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .navbar-head{
+        margin-top:15px;
+        margin-bottom:15px;
+    }
+    .para-img{
+        flex-direction:column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .para{
+        align-items: justify;
+    }
+    .about-para{
+        width: 100%;
+    }
+    .main-container{
+        width:100%;
+    }
+    
+}
